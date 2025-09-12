@@ -16,16 +16,16 @@
 #
 
 # UN1CA configuration file
-ROM_VERSION="1.0.1-nxt"
+ROM_VERSION="1.0.2-nxt"
 ROM_VERSION+="-$(git rev-parse --short HEAD)"
 ROM_CODENAME="Parrot"
 
 # Source ROM firmware
 case "$TARGET_SINGLE_SYSTEM_IMAGE" in
     "qssi")
-        # Galaxy S25 Ultra (One UI 7)
-        SOURCE_CODENAME="pa3q"
-        SOURCE_FIRMWARE="SM-S938B/EUX/356597450035295"
+        # Galaxy S24 Ultra (One UI 7)
+        SOURCE_CODENAME="e3q"
+        SOURCE_FIRMWARE="SM-S928B/EUX/350386301234562"
         SOURCE_EXTRA_FIRMWARES=()
         SOURCE_API_LEVEL=35
         SOURCE_PRODUCT_FIRST_API_LEVEL=35
